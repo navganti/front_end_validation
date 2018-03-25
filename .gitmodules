@@ -1,0 +1,3 @@
+[submodule "hypestogram"]
+	path = hypestogram
+	url = git@github.com:navganti/hypestogram
