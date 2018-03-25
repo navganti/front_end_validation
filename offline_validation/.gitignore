@@ -1,0 +1,27 @@
+# tex output
+*.aux
+*.bbl
+*.blg
+*.log
+*.bcf
+*.out
+*.synctex.gz
+
+# gedit
+*~
+
+# vim
+tags
+.ropeproject
+
+# scripts and folders
+run.sh
+build
+
+# matlab / octave
+*.mat
+octave-workspace
+
+# clion
+.idea/
+cmake-build-*/

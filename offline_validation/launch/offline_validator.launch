@@ -1,0 +1,6 @@
+<launch>
+    <arg name="topic" />
+    <node pkg="offline_validation" type="offline_validation_node" name="offline_validation" output="screen" respawn="true">
+        <remap from="/image" to="$(arg topic)"/>
+    </node>
+</launch>
