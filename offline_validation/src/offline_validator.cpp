@@ -77,7 +77,8 @@ offline_validation::FrontEndDiagnostics OfflineValidator::getDiagnostics(
     diagnostics.num_tracks = curr_tracks.size();
 
     // Enter the detector information
-    diagnostics.num_keypoints = this->feature_tracker.detector.num_keypoints;
+    diagnostics.num_keypoints =
+      this->feature_tracker.detector.num_keypoints_detected;
 
     // Enter the matcher information
     diagnostics.num_raw_matches = this->feature_tracker.matcher.num_raw_matches;
